@@ -1,0 +1,126 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+/* common styles or utilities */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #ffff;
+    width: 870px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 8px;  
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* top players styles */
+.section-title{
+   color: #562EFF;
+   font-size: 24px;
+   margin-top: 0px;
+}
+
+#lc-course{
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.courses{
+  margin: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+height: 56px;
+width: 56px;
+/* left: 315px;
+top: 239px;
+border-radius: 0px; */
+
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* top blog styles */
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:30px;
+}
+.blog{
+    display: flex;
+}
+
+.blog .thumbnail img{
+    width:177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+   color: #9F9F9F;
+   font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+/* top courses */
+.top-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+   grid-column-gap:24px;
+   
+    
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+    padding-top: 20px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.fa-star{
+    font-size: 12px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .number{
+    margin-left: 15px;
+    margin-right: 15px; */
